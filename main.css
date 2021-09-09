@@ -11,15 +11,60 @@ body {
 	margin: 0;
 	padding: 0;
 	min-width: 400px;
+	
 }
+
+
+
 html {
 	overflow: auto;
+	
 }
 
-img {
-	margin: 0% 43%;
+
+ul input {
+	border-radius: 4px;
+
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+box-shadow: 0 1px 1px rgba(0,0,0,.1);
+background-color: #f8f9fa;
+border: 1px solid #dadce0;
+color: #202124;
 }
 
+.inputButton {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-right: 20px;
+}
+
+.footerNav {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+flex-shrink: 0;
+background: #f2f2f2;
+position: absolute;
+bottom: 0;
+width: 100%
+}
+
+.logo {
+	margin: 10px 43%;
+	margin-bottom: 13px;
+}
 .navLeft {
 	display: flex;
 	justify-content: flex-start;
@@ -34,6 +79,17 @@ img {
 	padding: 12px;
 }
 
+.textInput {
+	background: #fff;
+	display: flex;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	border-radius: 24px;
+	z-index: 3;
+	height: 42px;
+	margin: 22px auto;
+	width: 578px;
+	}
 
 
 .navRight {
@@ -45,12 +101,20 @@ img {
 .nav {
 	justify-content: space-between;
 	display: flex;
-	background-color:cyan;
+	
 	margin: 10px;
+	
 }
+
+
 
 .spacer {
 	width: 70%;
-	background-color: chartreuse;
 	
+}
+
+.secondSpacer {
+	flex-shrink: 0;
+	flex-grow: 1;
+	box-sizing: border-box;
 }
